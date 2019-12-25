@@ -1,0 +1,22 @@
+[
+  {
+    "resource": "GET:http://sentinel-feign-provider/degrade",
+    "count": 20.0,
+    "grade": 0,
+    "passCount": 0,
+    "timeWindow": 10
+  },
+  {
+    "resource": "abc1",
+    "count": 15.0,
+    "grade": 0,
+    "passCount": 0,
+    "timeWindow": 10
+  },
+  {
+      "resource": "degrade",
+      "count": 20.0,
+      "grade": 0,
+      "timeWindow": 10
+  }
+]
